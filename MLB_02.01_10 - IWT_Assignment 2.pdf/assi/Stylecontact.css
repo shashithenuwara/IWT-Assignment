@@ -1,0 +1,52 @@
+body {
+	margin:0;
+	padding:0;
+	background-image: url('background-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	max-width: 500px;
+	padding: 30px;
+	border: 2px solid #ccc;
+	margin-top: 30PX;
+	margin-bottom: 30PX;
+	background-color:#FBE9F0;
+}
+
+h3 {
+	text-align: center;
+	color: #000000;
+}
+
+form label {
+	display: block;
+	margin-top: 15px;
+}
+
+form input,
+form textarea {
+	padding: 12px;
+	width: 100%;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+	color: White;
+	background-color: #BD99F7;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #EAD0EE;
+}
+
+form textarea {
+	height: 160px;
+}	
+

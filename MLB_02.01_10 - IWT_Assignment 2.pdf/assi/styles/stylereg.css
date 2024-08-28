@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("ev1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+
+
+/* Registration Form Styles */
+#registration_form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+#registration_form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#registration_form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#registration_form input[type="text"],
+#registration_form input[type="email"],
+#registration_form input[type="password"],
+#registration_form input[type="tel"],
+#registration_form input[type="date"],
+#registration_form select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin-bottom for spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#registration_form .checkbox-container {
+  margin-bottom: 15px;
+}
+
+#registration_form .button-container {
+  text-align: center;
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+#registration_form input[type="submit"],
+#registration_form input[type="reset"] {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#registration_form input[type="submit"]:hover,
+#registration_form input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+#registration_form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#registration_form a:hover {
+  text-decoration: underline;
+}
